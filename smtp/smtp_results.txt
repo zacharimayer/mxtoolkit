@@ -1,0 +1,5 @@
+Checking SMTP relay for 3 targets...
+
+google.com is not reachable
+yahoo.com is not reachable
+aol.com is not reachable

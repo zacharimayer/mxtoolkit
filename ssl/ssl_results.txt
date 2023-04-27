@@ -1,0 +1,12 @@
+Valid SSL certificate found for google.com
+Encryption enabled for google.com
+Encryption protocol: TLSv1.3
+SSL certificate subject: ((('commonName', '*.google.com'),),)
+SSL certificate issuer: ((('countryName', 'US'),), (('organizationName', 'Google Trust Services LLC'),), (('commonName', 'GTS CA 1C3'),))
+SSL certificate expiry: Jun 26 08:17:57 2023 GMT
+Valid SSL certificate found for yahoo.com
+Encryption enabled for yahoo.com
+Encryption protocol: TLSv1.3
+SSL certificate subject: ((('countryName', 'US'),), (('stateOrProvinceName', 'California'),), (('localityName', 'Sunnyvale'),), (('organizationName', 'Oath Holdings Inc.'),), (('commonName', 'yahoo.com'),))
+SSL certificate issuer: ((('countryName', 'US'),), (('organizationName', 'DigiCert Inc'),), (('organizationalUnitName', 'www.digicert.com'),), (('commonName', 'DigiCert SHA2 High Assurance Server CA'),))
+SSL certificate expiry: May 31 23:59:59 2023 GMT
