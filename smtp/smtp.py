@@ -21,7 +21,7 @@ display_ascii_art()
 
 socket.setdefaulttimeout(15)
 
-with open('targets.txt') as file:
+with open('domains.txt') as file:
     targets = file.read().splitlines()
 
 with open('smtp_results.txt', 'w') as output_file:

@@ -21,12 +21,13 @@ Requirements:
   
   3. Run the code:
   
-  - cd to the directory with the tool you would like to run
+  - cd to the mxtoolkit
   - Add the domains or targets into the text file in the directory
-  - run the code with ```python3 script.py```
+  - run the code with ```python3 main.py```
+  - choose the adequate scan to you want to run
   
   4. Results
   
   The results are automatically exported to a txt file upon completion. 
   
-  WARINIG: If the script is used multiple times, it will override previous results if you do not copy them.
+  WARNING: If the script is used multiple times, it will override previous results if you do not save them.

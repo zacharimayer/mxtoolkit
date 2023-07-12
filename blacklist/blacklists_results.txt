@@ -1,3 +1,0 @@
-
-Checking blacklists for domain: google.com
-========================================
