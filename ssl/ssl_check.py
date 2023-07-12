@@ -1,6 +1,22 @@
 import ssl
 import socket
 
+def display_ascii_art():
+    art = '''
+  ____  ____   _        ____  _____  ____  _____ 
+ / ___|/ ___| | |      / ___|| ____||  _ \|_   _|
+ \___ \\___ \ | |     | |    |  _|  | |_) | | |  
+  ___) |___) || |___  | |___ | |___ |  _ <  | |  
+ |____/|____/ |_____|  \____||_____||_| \_\ |_|  
+                                                                       
+                                                                              
+    '''
+
+    print(art)
+
+# Call the function to display the ASCII art
+display_ascii_art()
+
 # Set the port number
 port = 443
 

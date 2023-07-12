@@ -1,5 +1,21 @@
 import dns.resolver
 
+def display_ascii_art():
+    art = '''
+  _      _               _     _  _       _           _                  _    
+ | |__  | |  __ _   ___ | | __| |(_) ___ | |_    ___ | |__    ___   ___ | | __
+ | '_ \ | | / _` | / __|| |/ /| || |/ __|| __|  / __|| '_ \  / _ \ / __|| |/ /
+ | |_) || || (_| || (__ |   < | || |\__ \| |_  | (__ | | | ||  __/| (__ |   < 
+ |_.__/ |_| \__,_| \___||_|\_\|_||_||___/ \__|  \___||_| |_| \___| \___||_|\_\
+                                                                              
+    '''
+
+    print(art)
+
+# Call the function to display the ASCII art
+display_ascii_art()
+
+
 # read the list of domains from a text file
 with open('domains.txt') as f:
     domains = [line.strip() for line in f]

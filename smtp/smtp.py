@@ -1,6 +1,24 @@
 import smtplib
 import socket
 
+def display_ascii_art():
+    art = '''
+  ____   __  __  _____  ____    _____  ___    ___   _     
+ / ___| |  \/  ||_   _||  _ \  |_   _|/ _ \  / _ \ | |    
+ \___ \ | |\/| |  | |  | |_) |   | | | | | || | | || |    
+  ___) || |  | |  | |  |  __/    | | | |_| || |_| || |___ 
+ |____/ |_|  |_|  |_|  |_|       |_|  \___/  \___/ |_____|
+                                                          
+                                                               
+                                                                              
+    '''
+
+    print(art)
+
+# Call the function to display the ASCII art
+display_ascii_art()
+
+
 socket.setdefaulttimeout(15)
 
 with open('targets.txt') as file:
